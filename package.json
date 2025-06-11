@@ -2,11 +2,12 @@
   "name": "frontend",
   "version": "0.0.0",
   "scripts": {
-    "ng": "ng",
-    "start": "ng serve --ssl --ssl-cert src/certs/localhost.pem --ssl-key src/certs/localhost-key.pem --proxy-config proxy.conf.json",
-    "build": "ng build",
-    "test": "ng test"
-  },
+  "ng": "ng",
+  "start": "ng serve --ssl --ssl-cert src/certs/localhost.pem --ssl-key src/certs/localhost-key.pem --proxy-config proxy.conf.json",
+  "build": "npx ng build",
+  "test": "ng test"
+}
+,
   "private": true,
   "dependencies": {
     "@angular/animations": "...",
