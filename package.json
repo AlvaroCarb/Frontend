@@ -2,13 +2,11 @@
   "name": "frontend",
   "version": "0.0.0",
   "scripts": {
-  "ng": "ng",
-  "start": "ng serve --ssl --ssl-cert src/certs/localhost.pem --ssl-key src/certs/localhost-key.pem --proxy-config proxy.conf.json",
-  "build": "npx ng build --configuration production"
-,
-  "test": "ng test"
-}
-,
+    "ng": "ng",
+    "start": "ng serve --ssl --ssl-cert src/certs/localhost.pem --ssl-key src/certs/localhost-key.pem --proxy-config proxy.conf.json",
+    "build": "ng build --configuration production",
+    "test": "ng test"
+  },
   "private": true,
   "dependencies": {
     "@angular/animations": "...",
@@ -21,11 +19,11 @@
     "@angular/router": "...",
     "rxjs": "...",
     "tslib": "...",
-    "zone.js": "..."
+    "zone.js": "...",
+    "@angular/cli": "^17.0.0"
   },
   "devDependencies": {
     "@angular-devkit/build-angular": "...",
-    "@angular/cli": "...",
     "@angular/compiler-cli": "...",
     "@types/node": "...",
     "typescript": "..."
