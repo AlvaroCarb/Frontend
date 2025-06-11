@@ -4,7 +4,8 @@
   "scripts": {
   "ng": "ng",
   "start": "ng serve --ssl --ssl-cert src/certs/localhost.pem --ssl-key src/certs/localhost-key.pem --proxy-config proxy.conf.json",
-  "build": "npx ng build",
+  "build": "npx ng build --configuration production"
+,
   "test": "ng test"
 }
 ,
